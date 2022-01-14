@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url(//db.onlinewebfonts.com/c/82497e1c7392fc70560e211775ca72fe?family=UniversLTW01-85XtraBlackObl);
+
+@font-face {
+  font-family: "UniversLTW01-85XtraBlackObl";
+  src: url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.eot");
+  src: url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/82497e1c7392fc70560e211775ca72fe.svg#UniversLTW01-85XtraBlackObl") format("svg");
+}
+
+body {
+  background-color: rgb(215, 223, 235);
+}
+
+body,
+p {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1,
+h2,
+h5,
+.h1,
+.h2,
+.h5 {
+  font-family: "UniversLTW01-85XtraBlackObl";
+}
+
+.form-control {
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.btn-search {
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding: 0px 12px;
+}
+
+.logonav {
+  font-family: "UniversLTW01-85XtraBlackObl";
+  font-size: 25px;
+}
+
+.categoria {
+  font-family: "UniversLTW01-85XtraBlackObl";
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .input-group {
+    display: none;
+  }
+
+  #nav {
+    background-color: white;
+  }
+
+  .title {
+    text-align: center;
+  }
+  .form-control {
+    display: none;
+  }
+
+  .suscribe {
+    padding-right: 4px;
+  }
+
+  .contacto {
+    padding-left: 2px;
+  }
+
+  .newsletter {
+    padding-left: 2px;
+  }
+}
+
+/* Clase creada para el operador ternario de la navbar */
+.scrollNav {
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  transition: 0.5s all;
+  background-color: white;
+}
+
